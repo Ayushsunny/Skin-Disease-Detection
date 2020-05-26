@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id = "@+id/parentScroll"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+	
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="#FFF"
+		>
+
+		<TextView
+			android:id="@+id/pagedesc"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="#498AF3"
+			android:gravity="center"
+			android:text="Please provide the follwing information"
+			android:textColor="#FFF"
+			android:textSize="30px" />
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:orientation="vertical">
+
+			<!--start of item 1 : blood-->
+			<TextView
+				android:id="@+id/bloodpanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Blood"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/blooddesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please specify the amount of blood in 0 - 10."
+				android:textSize="30px" />
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:background="#e5e5e5"
+				android:gravity="center"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/blood"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="10" />
+
+				<TextView
+					android:id="@+id/bloodDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 1 : blood-->
+
+			<!--start of item 2: puss-->
+			<TextView
+				android:id="@+id/pusspanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Puss"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/pussdesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Puss refers to the white thick sticky substance."
+				android:textSize="30px" />
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:background="#e5e5e5"
+				android:gravity="center"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/puss"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="10" />
+
+				<TextView
+					android:id="@+id/pussDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 2: puss-->
+
+			<!--start of item 3: watering-->
+			<TextView
+				android:id="@+id/wateringpanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Watering"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/wateringdesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please specify the amount of watering in 0 - 10."
+				android:textSize="30px" />
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:background="#e5e5e5"
+				android:gravity="center"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/watering"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="10" />
+
+				<TextView
+					android:id="@+id/wateringDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 3: watering-->
+
+			<!--start of item 4: pain-->
+			<TextView
+				android:id="@+id/painpanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Pain"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/paindesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Do you feel any pain sensations at the effected place(rate it in 0 to 10)."
+				android:textSize="30px" />
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:background="#e5e5e5"
+				android:gravity="center"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/pain"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="10" />
+
+				<TextView
+					android:id="@+id/painDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 4: pain-->
+
+			<!--start of item 5: swelling-->
+			<TextView
+				android:id="@+id/swellpanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Swelling"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/swelldesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please specify the amount of sweeling in 0 - 10."
+				android:textSize="30px" />
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/swelling"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="10" />
+
+				<TextView
+					android:id="@+id/swellingDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 5: swelling-->
+
+			<!--start of item 6: itchiness-->
+			<TextView
+				android:id="@+id/itchpanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Itchiness"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/itchdesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please specify the amount of itchiness in 0 - 10."
+				android:textSize="30px" />
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/itch"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="10" />
+
+				<TextView
+					android:id="@+id/itchDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 6: itchiness-->
+
+			<!--start of item 7: redness-->
+			<TextView
+				android:id="@+id/Rednesspanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Redness"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/rednessdesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please specify the amount of redness in 0 - 10."
+				android:textSize="30px" />
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/redness"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="10" />
+
+				<TextView
+					android:id="@+id/rednessDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 7: redness-->
+
+			<!--start of item 8: no. of spots-->
+			<TextView
+				android:id="@+id/spotspanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Number of spots"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/spotsdesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please specify the number of spots in 0 - 50."
+				android:textSize="30px" />
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/spots"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="50" />
+
+				<TextView
+					android:id="@+id/spotsDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 8: no. of spots-->
+
+			<!--start of item 9: scaling/peeling-->
+			<TextView
+				android:id="@+id/scalingpanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Scaling/Peeling"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/scalingdesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please specify the amount of Scaling/Peeling in 0 - 10."
+				android:textSize="30px" />
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/scaling"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="10" />
+
+				<TextView
+					android:id="@+id/scalingDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 9: scaling/peeling-->
+
+			<!--start of item 10: skin elevation-->
+			<TextView
+				android:id="@+id/elevationpanel"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Elevation"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/elevationdesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please specify the amount of elevation in 0 - 10."
+				android:textSize="30px" />
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+				<SeekBar
+					android:id="@+id/elevation"
+					android:layout_width="200dp"
+					android:layout_height="wrap_content"
+					android:max="10" />
+
+				<TextView
+					android:id="@+id/elevationDisplay"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:textSize="50px"
+					android:text="0" />
+			</LinearLayout>
+			<!--end of item 10: skin elevation-->
+
+			<!--start of non computational item 1: affected region-->
+			<TextView
+				android:id="@+id/affectedregion"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Affected Region"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/affectedregiondesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please tick all of the affected regions"
+				android:textSize="30px" />
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+
+				<ScrollView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+
+					android:id="@+id/scrollViewAffectedRegion">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Hands"
+							android:id="@+id/affectedHands" />
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Feet"
+							android:id="@+id/affectedFeet" />
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Arms"
+							android:id="@+id/affectedArms" />
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Fore arms"
+							android:id="@+id/affectedForeArms" />
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Thighs"
+							android:id="@+id/affectedThighs" />
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Genitalia"
+							android:id="@+id/affectedGenitalia" />
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Arm pits"
+							android:id="@+id/affectedArmpits" />
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Finger webs"
+							android:id="@+id/affectedFingerwebs" />
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Wrists"
+							android:id="@+id/affectedWrists" />
+						<CheckBox
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Navel"
+							android:id="@+id/affectedNavel" />
+					</LinearLayout>
+
+				</ScrollView>
+
+
+			</LinearLayout>
+			<!--end of non computational item 1: affected region-->
+
+			<!--start of non computational item 2: complexion-->
+			<TextView
+				android:id="@+id/complexion"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Complexion"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/complexiondesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Please tick suitable complexion"
+				android:textSize="30px" />
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+
+
+
+				<ScrollView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+
+					android:id="@+id/scrollViewComplexion">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<RadioGroup
+							android:id="@+id/radioComplexion"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content">
+
+							<RadioButton
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Fair"
+								android:id="@+id/complexionFair" />
+							<RadioButton
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Wheatish"
+								android:id="@+id/complexionWheatish" />
+							<RadioButton
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Brown"
+								android:id="@+id/complexionBrown" />
+							<RadioButton
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Black"
+								android:id="@+id/complexionBlack" />
+						</RadioGroup>
+					</LinearLayout>
+
+				</ScrollView>
+
+			</LinearLayout>
+			<!--end of non computational item 2: complexion-->
+
+			<!--start of non computational item 3: duration-->
+			<TextView
+				android:id="@+id/duration"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Duratuion"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/durationdesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Enter duration in specific period"
+				android:textSize="30px" />
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/durationText"
+					android:layout_weight="1" />
+			</LinearLayout>
+			<!--end of non computational item 3: duration-->
+
+			<!--start of non computational item 4: age-->
+			<TextView
+				android:id="@+id/age"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Age"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/agedesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Enter age in years"
+				android:textSize="30px" />
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="horizontal" >
+
+
+				<EditText
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:inputType="number"
+					android:ems="10"
+					android:id="@+id/ageText"
+					android:layout_weight="1" />
+			</LinearLayout>
+			<!--end of non computational item 4: age-->
+
+			<!--start of non computational item 5: gender-->
+			<TextView
+				android:id="@+id/gender"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="50dp"
+				android:background="#498AF3"
+				android:gravity="center"
+				android:text="Gender"
+				android:textColor="#FFF"
+				android:textSize="40px" />
+
+			<TextView
+				android:id="@+id/genderdesc"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="#f5f5f5"
+				android:gravity="center"
+				android:padding="10px"
+				android:text="Select gender"
+				android:textSize="30px" />
+
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="75dp"
+				android:gravity="center"
+				android:background="#e5e5e5"
+				android:orientation="vertical" >
+
+
+				<RadioGroup
+					android:id="@+id/radioID"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent">
+
+					<RadioButton
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Male"
+						android:id="@+id/genderMale" />
+					<RadioButton
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Female"
+						android:id="@+id/genderFemale" />
+				</RadioGroup>
+
+
+			</LinearLayout>
+			<!--end of non computational item 5: gender-->
+
+			<!--start of margin between inputs and button-->
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="25dp"
+				android:gravity="center"
+				android:orientation="horizontal" >
+
+				<TextView
+					android:id="@+id/txtPercentageParameter"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginBottom="5dp"
+					android:layout_marginTop="5dp"
+					android:textColor="@color/txt_font"
+					android:textSize="30dp" />
+
+				<ProgressBar
+					android:id="@+id/progressBarParameter"
+					style="?android:attr/progressBarStyleHorizontal"
+					android:layout_width="fill_parent"
+					android:layout_height="20dp"
+					android:layout_marginBottom="5dp"
+					android:visibility="gone" />
+			</LinearLayout>
+			<!--end of margin between inputs and button-->
+
+			<!--start of button-->
+			<Button
+				android:id="@+id/proceed"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:padding="10dp"
+				android:background="#498AF3"
+				android:textColor="#FFF"
+				android:text="Get results" />
+			<!--end of button-->
+		</LinearLayout>
+
+
+
+	</LinearLayout>
+
+</ScrollView>

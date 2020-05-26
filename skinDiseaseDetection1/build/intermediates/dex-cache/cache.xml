@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/libs/httpmime-4.3.6.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.3.6_883b1d4c8bb8cc8bfd3750875d1050d70ecc2149/classes.dex" />
+    </item>
+    <item
+        jar="/home/janvi-jatakia/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_0ef28f2e3660c6247ea831f0438227c9e453bc40/classes.dex" />
+    </item>
+    <item
+        jar="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_524f67b22ab48a4d75d047c083a353d98bf4fc76/classes.dex" />
+    </item>
+    <item
+        jar="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1b596e13e8ecd63e81b9f4336dd8fe975e704f53">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3aa78959ee7f08b67098b7ec01bbc9f4bce03f5c/classes.dex" />
+    </item>
+    <item
+        jar="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="e3d1871efe8e6d10b3b7ad8043a401651a411f49">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d2f941fe8a75241580bffdeb3846abe9b941f34/classes.dex" />
+    </item>
+    <item
+        jar="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_b48857448dfba65cfe4bc45a34a1fb74e81ad9e3/classes.dex" />
+    </item>
+    <item
+        jar="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/libs/httpcore-4.3.3.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.3.3_0f03e7619393ab914b1fc19ef6e22dcf41212118/classes.dex" />
+    </item>
+    <item
+        jar="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/libs/mpandroidchartlibrary-2-0-8.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="673b11a1d7821baca4d5c4b8953a4500b28083ea">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/2/mpandroidchartlibrary-2-0-8_594602a7e9aa80270591cdd674d97fb8873c136a/classes.dex" />
+    </item>
+    <item
+        jar="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_cdfabba2dabecf363484d4f8eccbdb6342d90d11/classes.dex" />
+    </item>
+    <item
+        jar="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/libs/httpclient-4.3.6.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/home/janvi-jatakia/StudioProjects/skinDiseaseDetection1/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.3.6_1809854ea7dfea10b7334129685c7e5782607d27/classes.dex" />
+    </item>
+
+</items>

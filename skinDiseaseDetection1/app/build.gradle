@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        applicationId "info.androidhive.camerafileupload"
+        minSdkVersion 11
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+        packagingOptions {
+            exclude 'META-INF/DEPENDENCIES'
+        }
+
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+    compile files('libs/httpclient-4.3.6.jar')
+    compile files('libs/httpcore-4.3.3.jar')
+    compile files('libs/httpmime-4.3.6.jar')
+    compile files('libs/mpandroidchartlibrary-2-0-8.jar')
+}

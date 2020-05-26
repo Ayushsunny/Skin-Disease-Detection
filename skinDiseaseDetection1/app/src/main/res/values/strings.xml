@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DermiBot</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnTakeFromGallery">Take from gallery</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="ipadd">http://192.168.1.3</string>
+
+</resources>
